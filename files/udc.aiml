@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>Hello</pattern>
+    <template>Hi, I am your career assistant! Tell me about yourself - do you find yourself enjoying the creation of products, or managing a working product?
+        <button>
+            <text>Creating</text>
+            <postback>creation 1</postback>
+        </button>
+        <button>
+            <text>Managing</text>
+            <postback>management 1</postback>
+        </button>
+    </template>
+  </category>
+ 
+  <category>
+      <pattern>creation 1</pattern>
+      <template> Cool! Creating things is great. Do you consider yourself more of an artist, or more of an engineer when it comes to working with code?
+      <button>
+            <text>I am an artist!</text>
+            <postback>frontend</postback>
+        </button>
+        <button>
+            <text>I am an engineer!</text>
+            <postback>backend</postback>
+        </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>management 1</pattern>
+      <template>Let's say it's an ordinary day at work - what would you rather do: Check your system for any errors, or look to add new features to your system?
+      <button>
+            <text>Add a new feature</text>
+            <postback>admin</postback>
+        </button>
+        <button>
+            <text>Finding errors</text>
+            <postback>cybersec</postback>
+        </button>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>admin</pattern>
+      <template>Final question: Do you see yourself as a people person, or do you think working with numbers is easier?
+        <button>
+            <text>Working with information</text>
+            <postback>dbadmin</postback>
+        </button>
+        <button>
+            <text>Working with people</text>
+            <postback>sysadmin</postback>
+        </button>
+      </template>
+  </category>
+  <category>
+      <pattern>Hi</pattern>
+      <template><srai>Hello</srai></template>
+  </category>
+
+  <category>
+      <pattern>Hey</pattern>
+      <template><srai>Hello</srai></template>
+  </category>
+  
+    <category>
+      <pattern>Howdy</pattern>
+      <template><srai>Hello</srai></template>
+  </category>
+</aiml>
