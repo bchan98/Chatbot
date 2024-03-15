@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>cybersec</pattern>
+	    <template>
+	        I think you should become a cybersecurity engineer! Cybersecurity engineers generally work to protect company assets from cyberattacks. These roles are critical as cyberattacks can be crippling to a business' livelihood, even possibly shutting down a business for days.
+	        They generally work to build and test network defenses against potential threats and breaches, while updating the company on any potential risks they need to be aware of.
+	        Click the link to learn more about being a system administrator!
+	        <link>
+	            <text>Information about cybersecurity engineers</text>
+	            <url>https://ca.indeed.com/career-advice/finding-a-job/what-does-security-engineer-do</url>
+            </link>
+	    </template>
+	</category>
 </aiml>
