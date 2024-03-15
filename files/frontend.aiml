@@ -2,7 +2,10 @@
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
 	<category>
-	    <pattern>frontend
-	    </pattern>
+	    <pattern>frontend</pattern>
+	    <template>
+	        I think you should become a front-end UX designer! UX designers are in charge of the production of beautiful webpages and the user experience with various programs! These roles are critical as they directly interface with the user experience.
+	        Click the link to learn more about the front end experience!
+	    </template>
 	</category>
 </aiml>

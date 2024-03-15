@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>backend</pattern>
+	    <template>
+	        I think you should become a back-end software engineer! These software engineers are responsible for the logic and code that occurs in almost all the software you use. Additionally, this role is vast with several different specializations upon which you can pursue.
+	        Click the link to learn more about the front end experience!
+	        <link>
+	            <text>Information about software engineers</text>
+	            <url>https://www.mtu.edu/cs/undergraduate/software/what/</url>
+            </link>
+	    </template>
+	</category>
 </aiml>

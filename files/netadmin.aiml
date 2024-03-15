@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>netadmin</pattern>
+	    <template>
+	        I think you should become a network administrator! System administrators are responsible for the maintenance of an organization's computer systems. These individuals work with the company to ensure the business's technology solutions align with their goals and requirements.
+	        Click the link to learn more about being a network administrator!
+	        <link>
+	            <text>Information about network administrators</text>
+	            <url>https://www.coursera.org/articles/what-is-a-network-administrator-a-career-guide</url>
+            </link>
+	    </template>
+	</category>
+</aiml>
