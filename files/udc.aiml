@@ -47,11 +47,11 @@
       <template>Final question: Do you see yourself as a people person, or do you think working with numbers is easier?
         <button>
             <text>Working with information</text>
-            <postback>dbadmin</postback>
+            <postback>sysadmin</postback>
         </button>
         <button>
             <text>Working with people</text>
-            <postback>sysadmin</postback>
+            <postback>netadmin</postback>
         </button>
       </template>
   </category>
@@ -69,4 +69,9 @@
       <pattern>Howdy</pattern>
       <template><srai>Hello</srai></template>
   </category>
+  
+    <category>
+        <pattern>restart</pattern>
+        <template><srai>Hello</srai></template>
+    </category>
 </aiml>
