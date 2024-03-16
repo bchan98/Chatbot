@@ -5,7 +5,11 @@
 	    <pattern>frontend</pattern>
 	    <template>
 	        I think you should become a front-end UX designer! UX designers are in charge of the production of beautiful webpages and the user experience with various programs! These roles are critical as they directly interface with the user experience.
-	        Click the link to learn more about the front end experience!
+	        UX designers must be empathetic to users and understand their needs, whilst simultaneously creating elegant interfaces for customers to interact with.
+	        <link>
+	            <text>Click the link to learn more about the front end experience!</text>
+	            <url>https://www.coursera.org/articles/what-does-a-ux-designer-do</url>
+            </link>
 	    </template>
 	</category>
 </aiml>
