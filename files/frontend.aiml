@@ -11,6 +11,7 @@
 	            <text>Click the link to learn more about the front end experience!</text>
 	            <url>https://www.coursera.org/articles/what-does-a-ux-designer-do</url>
             </link>
+            If you'd like to restart this process, enter in 'restart'.
 	    </template>
 	</category>
 </aiml>

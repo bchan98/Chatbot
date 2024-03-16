@@ -11,6 +11,7 @@
 	            <text>Information about software engineers</text>
 	            <url>https://www.mtu.edu/cs/undergraduate/software/what/</url>
             </link>
+            If you'd like to restart this process, enter in 'restart'.
 	    </template>
 	</category>
 </aiml>
